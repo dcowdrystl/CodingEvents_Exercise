@@ -13,7 +13,6 @@ namespace CodingEvents.Controllers
         public IActionResult Index()
         {
            ViewBag.events = Events;
-
             return View();
         }
 
